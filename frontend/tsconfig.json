@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,    // Para React 17+ use 'react-jsx'
+    "moduleResolution": "node",
+    "module": "esnext",
+    "target": "es5",
+    "lib": ["dom", "esnext"],
+    "skipLibCheck": true
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx"
+  ]
+}
